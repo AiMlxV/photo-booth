@@ -23,8 +23,7 @@ A simple and interactive photo booth application that allows users to take pictu
   - Socket.IO (for real-time features)
 
 - **Storage:**
-  - MongoDB (for storing image metadata)
-  - AWS S3 (for image storage)
+  - MongoDB (for storing image metadata and photos)
 
 ## Prerequisites
 

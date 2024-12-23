@@ -8,7 +8,6 @@ Bun.js-powered backend for the Photo Booth application.
 - Express.js
 - Socket.IO
 - MongoDB
-- AWS S3
 
 ## Development
 
@@ -29,9 +28,6 @@ Create a `.env` file:
 ```env
 PORT=3001
 MONGODB_URI=mongodb://localhost:27017/photo-booth
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
-AWS_BUCKET_NAME=your_bucket
 ```
 
 ## API Endpoints
@@ -63,3 +59,4 @@ src/
 ├── services/     # Business logic
 └── utils/        # Utility functions
 ```
+````
